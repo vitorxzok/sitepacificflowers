@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import { motion, useReducedMotion } from "motion/react";
 import { WarningCircle, Notebook, PuzzlePiece, ArrowRight } from "@phosphor-icons/react/dist/ssr";
