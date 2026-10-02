@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   description: "Há mais de 20 anos fabricando sinalização, papelaria e materiais educativos de qualidade em Jaraguá do Sul para todo o Brasil.",
 };
 
+import { Navbar } from "@/components/Navbar";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
